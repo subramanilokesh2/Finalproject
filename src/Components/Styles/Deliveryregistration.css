@@ -1,0 +1,38 @@
+.registration-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .registration-container label {
+    font-size: 16px;
+  }
+  
+  .registration-container input[type='text'],
+  .registration-container input[type='email'],
+  .registration-container input[type='tel'],
+  .registration-container textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .registration-container button[type='submit'] {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+  }
+  

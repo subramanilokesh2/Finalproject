@@ -1,0 +1,57 @@
+/* DeliveryDashboard.css */
+
+/* Styling for User Information Card */
+.user-info-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .user-info-card .info-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-info-card .info-item {
+    margin-bottom: 8px;
+  }
+  
+  /* Styling for Buttons */
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .action-buttons .MuiButton-root {
+    margin-left: 10px;
+  }
+  
+  /* Styling for Orders Table */
+  .orders-table {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .orders-table .MuiTableHead-root {
+    background-color: #007bff;
+  }
+  
+  .orders-table .MuiTableCell-head {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Styling for Table Rows */
+  .orders-table .MuiTableRow-root:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .orders-table .MuiTableRow-root:hover {
+    background-color: #e8e8e8;
+  }
+  

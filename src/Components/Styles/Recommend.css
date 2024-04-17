@@ -1,0 +1,93 @@
+/* recommendationStyles.css */
+
+/* Container Styles */
+.recommendation-container {
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styles */
+  .recommendation-title {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Card Styles */
+  .recommendation-card {
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Map Styles */
+  .map-container {
+    margin-top: 2rem;
+    position: relative;
+  }
+  
+  .map-heading {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Distance and Travel Time Styles */
+  .distance-travel-time {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .distance-travel-time-item {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Route Map Styles */
+  .route-map-container {
+    margin-top: 2rem;
+    position: relative;
+  }
+  
+  .route-map-heading {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .route-map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  

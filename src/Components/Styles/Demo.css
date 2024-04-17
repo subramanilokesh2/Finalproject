@@ -1,0 +1,266 @@
+/* Navigation */
+.dashboard-container {
+  display: flex;
+}
+
+.nav-bar {
+  width: 280px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #fff;
+  overflow-y: auto;
+}
+
+.content-container {
+  margin-left: 280px;
+  padding: 20px;
+}
+.nav-bar {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, #ffffff 0%, #e4f0f6 100%);
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+
+.nav-link {
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: block;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: #ff6347;
+}
+
+/* Main Section */
+.main {
+  position: relative;
+  padding: 20px;
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.main-icon {
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+
+.main-skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #007bff; /* Change icon color */
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333; /* Change title color */
+}
+
+.card-description {
+  margin-bottom: 20px;
+  color: #777; /* Change description color */
+}
+
+.card-button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background: #0056b3;
+}
+
+
+.dashboard-container {
+  display: flex;
+}
+
+.nav-bar {
+  width: 280px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #fff;
+  overflow-y: auto;
+}
+
+.nav-list {
+  padding: 0;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.content-container {
+  margin-left: 280px;
+  padding: 20px;
+}
+
+.content-heading {
+  margin-bottom: 20px;
+}
+
+.main-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 200px;
+  margin: 0 10px 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}

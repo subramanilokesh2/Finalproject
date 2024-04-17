@@ -1,0 +1,334 @@
+/* Styles for the dashboard container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Styles for the navigation bar */
+  .nav-bar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  /* Styles for the navigation list */
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles for the navigation item */
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  /* Styles for the navigation link */
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the dashboard title */
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Styles for the dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Show dropdown menu on hover */
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Styles for the content container */
+  .content-container {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the content heading */
+  .content-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styles for the main skills container */
+  .main-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  /* Add more styles as needed */
+/* Add more styles as needed */
+
+/* Styles for the search input */
+.nav-item input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the filter select */
+  .nav-item select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Styles for the dropdown */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Show dropdown menu on hover */
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Styles for the logout link */
+  .logout {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ff6347; /* Tomato color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #d63e2f; /* Darker shade of tomato */
+  }
+  
+  /* Styles for the content card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the card title */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styles for the card content */
+  .card-content {
+    color: #666;
+  }
+  
+  /* Styles for the interactive elements */
+  .interactive-element {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .interactive-element:hover {
+    transform: scale(1.05);
+  }
+    
+  /* Add more styles as needed */
+
+/* Styles for the main container */
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+  }
+  
+  /* Styles for the navigation bar */
+  .nav-bar {
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the navigation list */
+  .nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the navigation item */
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Styles for the navigation link */
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the dropdown menu */
+  .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Styles for the content container */
+  .content-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the content heading */
+  .content-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the main skills container */
+  .main-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Styles for the cards */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Styles for the card title */
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the card content */
+  .card-content {
+    color: #666;
+  }
+  
+  /* Styles for the logout link */
+  .logout {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout:hover {
+    background-color: #d63e2f;
+  }
+  
+  /* Styles for the search input */
+  .nav-item input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the filter select */
+  .nav-item select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Add more styles as needed */
+  

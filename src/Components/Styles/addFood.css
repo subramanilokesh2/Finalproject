@@ -1,0 +1,36 @@
+/* addFood.css */
+
+.add-food-container {
+    margin-top: 50px;
+  }
+  
+  .add-food-paper {
+    padding: 20px;
+  }
+  
+  .add-food-title {
+    margin-bottom: 20px;
+  }
+  
+  .add-food-map {
+    margin-top: 10px;
+  }
+  
+  .get-location-button {
+    margin-top: 10px;
+  }
+  
+  .add-food-form {
+    margin-top: 20px;
+  }
+  
+  .food-name-input,
+  .quantity-input,
+  .location-input {
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+  }
+  
